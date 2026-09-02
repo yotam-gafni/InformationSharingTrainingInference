@@ -7,7 +7,7 @@ This file gives Theorem 4.6 the same “apples-to-apples” treatment as
 `Theorem43Selected.lean`: the IRPO comparison, payoffs, and consumer trade events all refer
 to one fixed equilibrium selection.
 
-There is an important asymmetry between Theorems 4.3 and 4.5.  Under no sharing the chosen
+There is an important asymmetry between Theorems 4.3 and 4.6.  Under no sharing the chosen
 strategy is fixed before the correlation world is revealed, so literal unique IRPO rules
 out the single inactive profile and immediately gives the half-trade bound.  Under train
 sharing the selected strategy may vary with the revealed world.  Literal uniqueness rules

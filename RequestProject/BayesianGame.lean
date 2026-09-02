@@ -295,7 +295,7 @@ def IsUniquelyIRPO
   IsIRPO E u c ∧ ∀ d, IsIRPO E u d → d = c
 
 /-- Literal unique IRPO excludes every distinct contract from being IRPO.  This is the
-order-theoretic point used in Theorems 4.3 and 4.5: unlike “unique up to equivalence,”
+order-theoretic point used in Theorems 4.3 and 4.6: unlike “unique up to equivalence,”
 literal uniqueness does not permit another payoff-equivalent IRPO contract. -/
 theorem uniquelyIRPO_excludes_distinct_irpo
     (E : BayesianEnvironment World Train1 Train2) (u : UtilityFamily)

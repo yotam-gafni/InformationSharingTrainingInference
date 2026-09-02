@@ -77,7 +77,7 @@ namespace Correlation
 /-! ## A genuine finite correlation-training experiment
 
 The `Unit` reduction below is useful only when training conveys no information even after
-sharing.  It cannot represent the central case of Theorems 3.4 and 4.5, where each firm's
+sharing.  It cannot represent the central case of Theorems 3.4 and 4.6, where each firm's
 training observation is individually uninformative but the pair identifies the correlation.
 For two correlation worlds, the XOR experiment is the exact finite analogue: nature draws
 a fair bit `r` and sends `(r, r xor world)`.  Either coordinate is fair in either world,
@@ -186,7 +186,7 @@ theorem BinaryFiniteModel.shared_training_identifies
 /-- A finite prior over feasible correlation worlds with common accuracies.  This is the
 finite/distributional counterpart of drawing `θ ∼ Θ` in Appendix D.1.  Its `Unit`
 training observation is intentionally the degenerate special case in which even sharing
-training data reveals nothing; use `BinaryFiniteModel` for Theorems 3.4 and 4.5. -/
+training data reveals nothing; use `BinaryFiniteModel` for Theorems 3.4 and 4.6. -/
 structure FiniteModel (World : Type) [Fintype World] where
   prior : FiniteLaw World
   parameters : World → Parameters
